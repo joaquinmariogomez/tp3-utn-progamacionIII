@@ -1,0 +1,21 @@
+    body { font-family: sans-serif; text-align: center; }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 5px;
+        border: 2px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: opacity 0.3s, background-color 0.3s;
+    }
+    .activo {
+        border-color: #007BFF;
+        background-color: #007BFF;
+        color: white;
+    }
+    .inactivo {
+        border-color: #cccccc;
+        background-color: #f0f0f0;
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
