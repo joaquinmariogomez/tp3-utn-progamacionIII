@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+.contenedor {
+    width: 500px;
+    max-width: 90vw;
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+li {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}

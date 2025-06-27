@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+.contenedor {
+    width: 350px;
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.filtro-controles {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1em;
+}
+input { flex-grow: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+button { padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; }
+.error { color: #dc3545; min-height: 1.2em; }
+ul { list-style: none; padding: 0; }
+li { background-color: #e9ecef; margin-bottom: 5px; padding: 10px; border-radius: 4px; }
