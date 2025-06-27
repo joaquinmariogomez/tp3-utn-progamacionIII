@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 2 - Filtro de Palabras</title>
 </head>
 <body>
+    <h1>Filtro de Palabras</h1>
     
+    <form id="formularioFiltro">
+        <input type="text" id="entradaFiltro" placeholder="Ingrese texto para filtrar...">
+        <button type="button" id="botonFiltrar">Filtrar</button>
+    </form>
+    
+    <div id="mensajeError" style="color: red; margin-top: 10px;"></div>
+    
+    <h2>Resultados:</h2>
+    <ul id="listaResultados"></ul>
+
+    <script src="script.js"></script>
 </body>
 </html>
